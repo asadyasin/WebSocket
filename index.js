@@ -8,6 +8,7 @@ const server = app.listen(port, () => {
   console.log("Server is listening...");
 });
 
+const ali = WebSocket;
 const wss = new WebSocketServer({ server });
 
 wss.on("connection", (ws) => {
